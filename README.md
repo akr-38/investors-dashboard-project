@@ -1,15 +1,15 @@
 # Investors Dashboard Project
 
 **Objective:**  
-This project is an interactive, investor-focused dashboard providing insights into vehicle registrations in India. It allows users to explore trends across vehicle categories (2W, 3W, 4W) and manufacturers, and view Year-over-Year (YoY) and Quarter-over-Quarter (QoQ) growth.
+This project is an interactive, investor-focused dashboard providing insights into vehicle registrations in India. It allows users to explore trends across vehicle categories (2W, 3W, 4W) and manufacturers, and view Year-over-Year (YoY) and Quarter-over-Quarter (QoQ) growth and many more...
 
 ---
 
 ## Tech Stack
 - **Backend:** FastAPI, PostgreSQL
 - **Frontend:** Streamlit
-- **Data Collection:** Python Scraper
-- **Data Format:** JSON / CSV
+- **Data Collection:** Python Scrapping- Selenium
+- **Data Format:** JSON
 
 ---
 
@@ -37,9 +37,9 @@ The project is divided into three repositories:
 ## Project Description
 
 ### Phase 1: Data Scraping, Processing, and Storage
-- Collects vehicle registration data from public Vahan Dashboard sources  
+- Collects vehicle registration data from public Vahan Dashboard  
 - Processes and aggregates data into broad categories (2W, 3W, 4W)  
-- Stores data in PostgreSQL for backend access  
+- Stores data in Supabase/PostgreSQL for backend access  
 
 ### Phase 2: Frontend Dashboard
 - Standalone frontend fetches data via FastAPI backend  
