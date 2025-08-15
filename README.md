@@ -1,37 +1,90 @@
-# investors-dashboard-project
+# Investors Dashboard Project
 
-so this is the readme file for the investors dashboard project
-ths project is divided into three repositories:
-1> investor dashboard frontend - link
-2> investor dashboard backend - link
-3> investor dashboard scrapper and storing - link
+**Objective:**  
+This project is an interactive, investor-focused dashboard providing insights into vehicle registrations in India. It allows users to explore trends across vehicle categories (2W, 3W, 4W) and manufacturers, and view Year-over-Year (YoY) and Quarter-over-Quarter (QoQ) growth.
 
-how to setup this project:
-the first thing you need to do is go to this repo: investor dashboard scrapper and storing - link and follow its instructions in the readme file to set it up
-then you may choose to setup anyone of the frontend - link or backend - link or both 
+---
 
-project description:
-this project works in two phases:
+## Tech Stack
+- **Backend:** FastAPI, PostgreSQL
+- **Frontend:** Streamlit
+- **Data Collection:** Python Scraper
+- **Data Format:** JSON / CSV
 
-phase 1: data scrapping processing and collection
-this is done using the repository investor dashboard scrapper and storing
-more about data scrapping, processing and db schema. 
+---
 
-phase 2: data shown on the front end using a standalone frontend and backend
-more about the frontend backend and how its buit
+## Repository Structure
 
-diagram:
+The project is divided into three repositories:
 
-data scrapper_______>>pushing the scrapped data>>_________database
-                                                            ^^^^^
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              |
-                                                              dashboard backend_______________________________dashboard frontend
+1. [Investor Dashboard Frontend](#) – Streamlit dashboard for visualizing the data  
+2. [Investor Dashboard Backend](#) – FastAPI APIs serving registration stats  
+3. [Investor Dashboard Scraper and Storing](#) – Data collection, cleaning, and DB setup  
+
+---
+
+## Setup Instructions (High-Level)
+
+1. **Data Scraper & DB**  
+   - Go to the Scraper repository and follow its README to set up and populate the database.  
+
+2. **Backend & Frontend**  
+   - You can set up the backend, frontend, or both.  
+   - Each repository has its own README with setup instructions.  
+
+---
+
+## Project Description
+
+### Phase 1: Data Scraping, Processing, and Storage
+- Collects vehicle registration data from public Vahan Dashboard sources  
+- Processes and aggregates data into broad categories (2W, 3W, 4W)  
+- Stores data in PostgreSQL for backend access  
+
+### Phase 2: Frontend Dashboard
+- Standalone frontend fetches data via FastAPI backend  
+- Users can filter by vehicle category, manufacturer, and date range  
+- Displays interactive line charts and calculates YoY/QoQ growth  
+
+---
+
+## Architecture Diagram
+
+          +----------------+
+          |   Scraper      |
+          |(Data Collection|
+          | & Processing)  |
+          +-------+--------+
+                  |
+                  v
+          +----------------+
+          |   Database     |
+          +-------+--------+
+                  ^
+                  |
+                  |
+          +-------+--------+
+          |   Backend      |
+          | (APIs / Logic) |
+          +-------+--------+
+                  ^
+                  |
+                  v
+          +----------------+
+          |   Frontend     |
+          | (Streamlit UI) |
+          +----------------+
+
+---
+
+## Key Features
+- Filter by vehicle category and manufacturer  
+- Select date range (quarter-wise)  
+- YoY and QoQ calculations  
+- Interactive line charts to visualize trends  
+
+---
+
+## Video Walkthrough
+- [Link to Video](#)
 
