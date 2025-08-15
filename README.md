@@ -17,19 +17,19 @@ This project is an interactive, investor-focused dashboard providing insights in
 
 The project is divided into three repositories:
 
-1. [Investor Dashboard Frontend](#) – Streamlit dashboard for visualizing the data  
-2. [Investor Dashboard Backend](#) – FastAPI APIs serving registration stats  
-3. [Investor Dashboard Scraper and Storing](#) – Data collection, cleaning, and DB setup  
+1. [Investor Dashboard Frontend](#https://github.com/akr-38/investor-dashboard-frontend) – Streamlit dashboard for visualizing the data  
+2. [Investor Dashboard Backend](#https://github.com/akr-38/investor-dashboard-backend) – FastAPI APIs serving registration stats  
+3. [Investor Dashboard Scraper and Storing](#https://github.com/akr-38/investor-dashboard-scraping-and-storing) – Data collection, cleaning, and DB setup  
 
 ---
 
 ## Setup Instructions (High-Level)
 
 1. **Data Scraper & DB**  
-   - Go to the Scraper repository and follow its README to set up and populate the database.  
+   - Go to the Scraper repository-[Investor Dashboard Scraper and Storing](#https://github.com/akr-38/investor-dashboard-scraping-and-storing) and follow its README to set up and populate the database.  
 
 2. **Backend & Frontend**  
-   - You can set up the backend, frontend, or both.  
+   - You can set up the backend-[Investor Dashboard Backend](#https://github.com/akr-38/investor-dashboard-backend), frontend-[Investor Dashboard Frontend](#https://github.com/akr-38/investor-dashboard-frontend), or both.  
    - Each repository has its own README with setup instructions.  
 
 ---
@@ -83,8 +83,4 @@ The project is divided into three repositories:
 - YoY and QoQ calculations  
 - Interactive line charts to visualize trends  
 
----
-
-## Video Walkthrough
-- [Link to Video](#)
 
