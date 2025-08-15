@@ -14,6 +14,8 @@ This project is an interactive dashboard that provides comprehensive insights in
 
 This project is designed to help users make informed decisions by providing a clear, data-driven perspective on the Indian automotive market.
 
+ **[Video Walkthrough Link](https://drive.google.com/file/d/13eij05XaSd8ncm44-aUAFKqdpYFOZPAA/view?usp=drive_link)**
+
 ***
 
 ## ⚙️ Tech Stack
